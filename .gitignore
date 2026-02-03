@@ -1,0 +1,30 @@
+# --- Virtual Environment ---
+# Ini yang paling penting berdasarkan gambar kamu.
+# Folder ini berisi ribuan library yang tidak boleh di-upload ke Git.
+venv/
+env/
+.venv/
+
+# --- Python Compiled Files ---
+# File otomatis yang dibuat Python saat dijalankan (tidak perlu di-upload).
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment Variables ---
+# PENTING: Untuk keamanan, jangan pernah upload file berisi password/API key.
+.env
+.env.local
+
+# --- IDE Settings ---
+# Folder setting editor (VS Code) yang spesifik untuk komputermu saja.
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Distribution / Packaging (Opsional) ---
+dist/
+build/
+*.egg-info/
